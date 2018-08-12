@@ -1,5 +1,4 @@
 import React from "react";
-import {render} from "react-dom";
 import {observable, action} from "mobx";
 import {observer} from "mobx-react";
 import DevTools from "mobx-react-devtools";
