@@ -8,7 +8,7 @@ class BoxView extends Component {
   render() {
     const {box} = this.props;
     return (
-      <DraggableCore// onStart={this.handleStart} onDrag={this.handleDrag}// onStop={this.handleStop}>
+      <DraggableCore onDrag={this.handleDrag}>
         <div style={{
           width: box.width,
           left: box.x,

@@ -13,7 +13,7 @@ const HotReloadWrapper = observer(() =>
 );
 
 export default () => (
-  <div>
+  <div className="canvas-containe">
     <HotReloadWrapper />
   </div>
 )
