@@ -8,6 +8,7 @@ import {storiesOf} from '@storybook/react';
 // import { action } from '@storybook/addon-actions';
 import App from '../examples/01-mobx-basic';
 import TodoApp from '../examples/02-mobx-todo';
+import CanvasApp from '../examples/03-mobx-reactive2015';
 
 storiesOf('Mobx Learn', module)
   .add('basic', () => (
@@ -15,4 +16,7 @@ storiesOf('Mobx Learn', module)
   ))
   .add('todo', () => (
     <TodoApp/>
+  ))
+  .add('reactive', () => (
+    <CanvasApp />
   ))
